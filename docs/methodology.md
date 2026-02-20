@@ -190,8 +190,8 @@ assess the incremental explanatory power of each predictor set.
 
 - **Dependent variable**: `mca_any` (used at least one CAM: yes/no)
 - **Block 1**: socio-demographics (age, gender, education, income)
-- **Block 2**: access barriers (push hypothesis)
-- **Block 3**: health needs (subjective health, functional limitations, musculoskeletal pain)
+- **Block 2**: health needs (subjective health, functional limitations, musculoskeletal pain)
+- **Block 3**: access barriers (push hypothesis)
 - **Block 4**: value orientations — openness, tradition (pull hypothesis)
 
 Reported: Nagelkerke pseudo-R², change in −2LL with significance test at each block,
