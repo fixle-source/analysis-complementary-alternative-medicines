@@ -58,9 +58,7 @@ past 12 months:
 
 From these, two derived variables are constructed:
 
-- **`mca_any`** (binary): whether the respondent used at least one CAM (excluding
-  physiotherapy and therapeutic massage, which are frequently prescribed within
-  conventional care pathways)
+- **`mca_any`** (binary): whether the respondent used at least one CAM
 - **`mca_count`** (count): number of distinct CAM types used
 
 ### Conventional healthcare use
