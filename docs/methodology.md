@@ -157,7 +157,7 @@ coherent healthcare utilisation profiles — e.g., "exclusive conventionals", "a
 "targeted alternative users", "holistic/spiritual users", and "non-users".
 
 **What happened.** Tetrachoric correlations across the 12 CAM variables yielded a mean
-coefficient of **r̄ = 0.045**, indicating near-independence between practices. LCA models
+coefficient of **r̄ = 0.278**, indicating a relative independence between practices. LCA models
 from 2 to 7 classes showed poor fit (unstable BIC, low entropy), confirming the absence
 of a meaningful latent structure.
 
@@ -267,7 +267,7 @@ This model addresses two questions:
 
 | #  | Hypothesis                                                                                      | Statistical test                              |
 |----|-------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| H1 | CAM practices are largely independent of one another (no coherent latent profiles)             | Tetrachoric correlations, LCA fit indices     |
+| H1 | CAM practices are mostly independent of one another (no coherent latent profiles)             | Tetrachoric correlations, LCA fit indices     |
 | H2 | The number of CAM types used is associated with the multivariate health vector, controlling for age and access | MANCOVA: Pillai's trace              |
 | H3 | Value orientations (openness) predict CAM use beyond socio-demographic and access variables    | Logistic regression: ΔR² at Block 4          |
 | H4 | Access barriers (push) and values (pull) make independent contributions to CAM use            | Comparison of Blocks 2 and 4 incremental fit  |
