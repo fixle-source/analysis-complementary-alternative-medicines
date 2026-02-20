@@ -274,13 +274,7 @@ This model addresses two questions:
 | H5 | Determinants of CAM use differ across specific CAM types                                       | CAM-specific logistic regressions             |
 | H6 | Country explains a significant share of variance in CAM use                                    | Multilevel model: ICC significance            |
 
----
 
-## Missing data
-
-The pattern of missingness is assessed (MCAR, MAR, MNAR) using Little's MCAR test and
-inspection of missing data patterns. If data are MAR, multiple imputation is applied;
-otherwise, complete-case analysis is used with sensitivity checks.
 
 ---
 
@@ -293,6 +287,5 @@ All analyses are conducted in **R**. Key packages:
 - `MASS`, `glm` — logistic and count regression models
 - `lme4` — multilevel modelling
 - `car` — MANOVA/MANCOVA
-- `mice` — multiple imputation
 - `ggplot2` — visualisation
 
