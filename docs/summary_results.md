@@ -11,7 +11,6 @@ Analysis of the European Social Survey (ESS Round 11) reveals a broad spectrum o
 **1.2. Cross-Country Variations in Europe**
 
 ![](/outputs/figure/2_3_country_prevalence_map.png)
-
 ![](/outputs/figure/2_2_country_prevalence.png)
 
 CAM usage is highly heterogeneous across European countries . The highest prevalences are concentrated in Western and Northern Europe, led by Iceland (54.5%), Switzerland (54.4%), and France (50.6%) n stark contrast, Southern and Eastern European countries report significantly lower utilization rates, particularly in Greece (12.7%), Hungary (12.9%), and Italy (18.2%)
@@ -26,6 +25,8 @@ To better understand healthcare navigation, the sample was divided into [four mu
 
 **1.4. Health Outcomes by Typology of Care**
 Following the descriptive distribution, nonparametric [Kruskal-Wallis rank sum tests](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/outputs/tables/tables.md#table-24--kruskal-wallis-health-outcomes-by-care-type) were conducted to investigate the association between the four-level care typology (Neither, Conventional only, CAM only, Both) and essential health indicators. The test results indicate highly significant global differences (p < 0.001) across the groups regarding subjective general health, physical limitations (hampered in daily activities), and levels of depressive symptoms (based on the prorated CES-D score).
+
+![](/outputs/figure/2_4_subjective_health.png)
 
 ---
 
@@ -42,7 +43,8 @@ Under the assumption that latent classes might strictly reflect bundles of alter
 
 **2.4. Underlying Structure and Conclusion**
 To diagnostically validate the failure of the LCA models to form clusters, a tetrachoric correlation matrix was generated to assess the unobserved continuous structure between the binary CAM variables. The resulting matrix confirmed a notably weak average correlation across practices (r = 0.278). This demonstrates a poor underlying structure in the dataset, indicating that the use of one alternative medicine is only marginally predictive of using another. Consequently, [Hypothesis 1](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/docs/methodology.md#hypotheses) is rejected: the data does not support the existence of distinct, cohesive subcultures of CAM practices in Europe.
-![](/outputs/figure/3_1_tetrachorich.png)
+
+![](/outputs/figure/3_1_tetrachoric.png)
 
 ---
 
