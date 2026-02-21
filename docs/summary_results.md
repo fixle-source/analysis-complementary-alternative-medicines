@@ -29,6 +29,7 @@ Following the descriptive distribution, nonparametric [Kruskal-Wallis rank sum t
 ![](/outputs/figure/2_4_subjective_health.png)
 
 ---
+---
 
 ### Part 2: Latent Class Analysis (LCA)
 
@@ -46,5 +47,25 @@ To diagnostically validate the failure of the LCA models to form clusters, a tet
 
 ![](/outputs/figure/3_1_tetrachoric.png)
 
+---
+---
+
+### Part 3: MANCOVA Analysis
+
+**3.1. Objective and Hypothesis Testing**
+To address [Hypothesis 2 (H2)](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/docs/methodology.md#hypotheses), a Multivariate Analysis of Covariance (MANCOVA) was employed to evaluate whether the intensity of CAM utilization (categorized into 0, 1, 2-3, or 4+ practices with variable `mca_category`) is associated with a comprehensive multivariate health vector encompassing 8 distinct clinical outcomes. Due to the large sample size (N+49000) leading to significant Box's M and Shapiro-Wilk tests, Pillai's trace was utilized as a robust test statistic. The model also systematically controlled for demographic (age) and structural (access difficulties) covariates.
+
+**3.2. Global Multivariate Results**
+[The MANCOVA results](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/outputs/tables/tables.md#table-41--multivariate-tests-for-cam-intensity-mancova) reveal a highly significant multivariate effect of CAM intensity on the combined health vector (Pillai’s trace = 0.102, F = 219.18, p < 0.001), indicating that health profiles differ substantially depending on the sheer number of alternative therapies an individual uses. The covariates (age and access difficulties) were also highly significant independent predictors of the multivariate outcome. Consequently, [Hypothesis 2](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/docs/methodology.md#hypotheses) is fully supported by the data.
+
+**3.3. Specific Item Associations (Univariate Step-Down)**
+To decompose the global effect, [univariate step-down ANCOVAs](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/outputs/tables/tables.md#table-42--univariate-ancova-results-for-cam-intensity-mca_category) were conducted for each of the 8 clinical outcomes. The results highlighted a distinct contrast between physical symptoms and psychological well-being. Highly significant associations (p < 0.001) were observed for all physical variables, led by musculoskeletal problems (F = 1490.14), atopic and inflammatory conditions (F = 341.86), digestive problems (F = 313.36), and daily functional limitations (F = 222.08). Conversely, the prorated CES-D depression score emerged as the only variable not significantly associated with CAM intensity (F = 2.18, p = 0.088).
+
+**3.4. Dose-Response Profiles (Post-Hoc Comparisons)**
+[Estimated Marginal Means (EMMs) with Bonferroni correction](https://github.com/fixle-source/analysis-complementary-alternative-medicines/blob/main/outputs/tables/tables.md#table-43--pairwise-comparisons-post-hoc-for-key-health-outcomes) were calculated to investigate the exact pairwise contrasts across the CAM intensity groups. The post-hoc estimations delineated a clear "dose-response" profile for somatic complaints : as the number of utilized CAM types increases incrementally, there is a corresponding, significant exacerbation in musculoskeletal pain, severe headaches, and globally poor subjective health. In stark contrast, confirming the univariate findings, psychological distress remains disconnected from CAM intensity, with all pairwise comparisons for the depression score yielding non-significant differences (p > 0.10 or p = 1.000). 
+
+![](/outputs/figure/4_1_dose_response_profiles_intensity.png)
+
+---
 ---
 
